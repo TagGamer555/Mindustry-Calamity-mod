@@ -1,0 +1,31 @@
+type: GenericSmelter
+name: Ultratitanium Pressdescription: Combines cryogen and titanium powder to produce ultratitanium.
+liquidCapacity: 75
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 75
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      titanium/5
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 5  }
+}
+requirements: [  copper/85
+  lead/50
+  thorium/100
+  silicon/70
+  titanium/50
+]
+category: crafting
+research: silver-crucible
+idleSound: respawning
+idleSoundVolume: 1.5
+outputItem: ultratitanium/5

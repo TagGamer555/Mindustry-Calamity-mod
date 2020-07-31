@@ -1,0 +1,6 @@
+type: material
+name: Ultratitanium
+description: A rare, hard and cold resource.
+hardness: 2
+cost: 2
+color: ffffff

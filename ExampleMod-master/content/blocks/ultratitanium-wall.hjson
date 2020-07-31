@@ -1,0 +1,10 @@
+name: Ultratitanium Wall
+description: A wall made of ultratitanium. Not particularly useful or interesting, but really useful.
+type: Wall
+health: 2300
+size: 2
+requirements: [
+  ultratitanium/40
+]
+category: defense
+research: silver-wall
